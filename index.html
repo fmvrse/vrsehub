@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UI Demo with Video</title>
+  <style>
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(800px, 800px)); gap: 20px; }
+    video { width: 100%; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <!-- Video 1 -->
+    <video controls poster="/images/dashboard.png">
+      <!-- Changed from /public/dashboard.mp4 to /dashboard.mp4 -->
+      <source src="/videos/dashboard.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Video 2 -->
+    <video controls poster="/images/dashboard.png">
+      <source src="/verificationpage.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Video 3 -->
+    <video controls poster="/images/dashboard.png">
+      <source src="/createListing.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Video 4 -->
+    <video controls poster="/images/dashboard.jpg">
+      <source src="/billing.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Video 5 -->
+    <video controls poster="/images/dashboard.jpg">
+      <source src="/trial-about-to-end.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Video 6 -->
+    <video controls poster="/images/dashboard.jpg">
+      <source src="/trial-has-ended.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Video 7 -->
+    <video controls poster="/images/dashboard.jpg">
+      <source src="/referralpage.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</body>
+</html>
